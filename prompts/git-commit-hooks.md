@@ -31,6 +31,11 @@ Please generate the complete, ready-to-run configuration by strictly following t
    - Command to bypass the check in emergencies
    - Recommendation for team members (how to auto-install hooks after `bun install` using package.json prepare script)
 
+7. **Testing the configuration** (MUST include this section):
+   After all setup steps, give clear step-by-step testing instructions:
+   - First, show how to attempt an INCORRECT commit (e.g. wrong type or uppercase subject) — it should be rejected by Husky.
+   - Then, show a CORRECT commit that documents the work itself: “integrate husky and commitlint”. The commit message must fully follow the rules (lowercase subject + English only) and should succeed.
+
 Output everything in clear Markdown format:
 - Number each step clearly
 - Show every file to create or modify in complete, ready-to-copy code blocks
